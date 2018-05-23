@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Final_QuynhDinh.jnlp">
+  <information>
+    <title>Final_QuynhDinh</title>
+    <vendor>qinee</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Final_QuynhDinh.jar" size="6804" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Final_QuynhDinh" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="final_quynhdinh.Final_QuynhDinh"  name="Final_QuynhDinh" />
+  <update check="always"/>
+</jnlp>
